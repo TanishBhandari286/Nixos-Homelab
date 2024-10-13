@@ -13,10 +13,6 @@
   source = ./dotfiles/.config/starship.toml;
   };
 
-  home.file.".zshrc" = {
-  source = ./dotfiles/.zshrc;
-  };
-
   home.file.".tmux.conf" = {
   source = ./dotfiles/.tmux.conf;
   };
