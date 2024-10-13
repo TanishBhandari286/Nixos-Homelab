@@ -13,6 +13,18 @@
   source = ./dotfiles/.config/starship.toml;
   };
 
+  home.file.".zshrc" = {
+  source = ./dotfiles/.zshrc;
+  };
+
+  home.file.".tmux.conf" = {
+  source = ./dotfiles/.tmux.conf;
+  };
+
+  home.file.".config/fastfetch" = {
+  source = ./dotfiles/.config/fastfetch;
+  recursive = true;
+  };
   home.sessionVariables = {
      EDITOR = "nvim";
   };
