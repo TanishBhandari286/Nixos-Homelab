@@ -131,7 +131,6 @@
     zip
     rustup
     nodejs_22
-    stash
     nodePackages_latest.pnpm
     nodePackages_latest.yarn
     nodePackages_latest.nodejs
