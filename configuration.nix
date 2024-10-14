@@ -125,14 +125,20 @@
     lua
     python3
     clang
+    devilspie2
+    thefuck
+    run
     zip
     rustup
+    nodejs_22
+    stash
     nodePackages_latest.pnpm
     nodePackages_latest.yarn
     nodePackages_latest.nodejs
     bun
     jdk
     maven
+    immich-cli
     gh
     lazygit
     bruno
@@ -142,6 +148,7 @@
     meson
     nix-zsh-completions
     ninja
+    bitwarden-desktop
     onefetch
     stow
     eza
@@ -273,6 +280,7 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.05"; # Did you read the comment?
+  services.flatpak.enable = true;
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 }

@@ -64,9 +64,6 @@ alias nvimfzf='nvim $(fzf --preview='bat {}')'
 alias upgrade='brew update && brew upgrade'
 
 
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 # ---- Eza (better ls) -----
 # Core Utils Aliases
 alias l='eza -lh  --icons=auto'
